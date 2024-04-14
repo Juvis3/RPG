@@ -1,0 +1,36 @@
+body{
+    background: #fefff0;
+}
+h1{ 
+    font-size: 40px;
+    position: relative;
+    left: 80px;
+    background: fixed;
+font-style: italic;}
+.hp{
+    color: red;
+    position: absolute;
+    left: 200px;
+    font-size: 20px;}
+.CA{
+    position: absolute;
+    left: 265px;
+    font-size: 20px;}
+.CD{
+    position: absolute;
+    left: 330px;
+    font-size: 20px;}
+.modatckmagico{
+    position: absolute;
+    left: 395px;
+    font-size: 18px;}
+.expand-button {
+    cursor: pointer;
+    transition: .5s;
+}
+.expand-button:hover{
+    color: rgb(5, 178, 252)
+}
+.expand-button ul{
+    transition: .5s;
+}

@@ -3,44 +3,8 @@
 <html>
     <head>
         <title>Ficha Selene</title>
-        <style>
-            body{
-                background: #fefff0;
-            }
-            h1{ 
-                font-size: 40px;
-                position: relative;
-                left: 80px;
-                background: fixed;
-            font-style: italic;}
-            .hp{
-                color: red;
-                position: absolute;
-                left: 200px;
-                font-size: 20px;}
-            .CA{
-                position: absolute;
-                left: 265px;
-                font-size: 20px;}
-            .CD{
-                position: absolute;
-                left: 330px;
-                font-size: 20px;}
-            .modatckmagico{
-                position: absolute;
-                left: 395px;
-                font-size: 18px;}
-            .expand-button {
-                cursor: pointer;
-                transition: .5s;
-            }
-            .expand-button:hover{
-                color: rgb(5, 178, 252)
-            }
-            .expand-button ul{
-                transition: .5s;
-            }
-        </style>
+        <link rel="stylesheet" href="http://files.cod3r.com.br/curso-web/tree.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>Ficha Selene</h1>
@@ -54,8 +18,6 @@
         <aside>Destreza: 1</aside>
         <aside>Carisma: 0</aside>
         <aside>Força: -1</aside>
-    </body>
-</html>
 <br>
 <h2>Habilidades:</h2>
 <ul class="tree">
@@ -144,15 +106,6 @@
         </ul>
     </li>
 </ul>
-
-<link rel="stylesheet" href="http://files.cod3r.com.br/curso-web/tree.css">
-
-<script>
-    document.querySelectorAll('.expand-button').forEach(folder => {
-        folder.onclick = function(e){
-            const ulElement = folder.nextElementSibling
-            const currentDisplay = ulElement.style.display
-            ulElement.style.display = currentDisplay  === 'none' ? 'block' : 'none';
-        }
-    })
-</script> 
+    </body>
+<script src="script.js"></script>
+</html>
